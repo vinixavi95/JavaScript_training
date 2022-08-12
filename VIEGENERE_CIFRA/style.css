@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Hubballi&family=League+Gothic&family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito;
+}
+
+.title {
+    position: relative;
+    top: 35px;
+    left: 330px;
+    color: #4B79A8;
+}
+
+.vigenere {
+    position: relative;
+    top: 80px;
+    background-color: whitesmoke;
+    height: 500px;
+}
+
+.title-2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: #4B79A8;
+}
+
+.vigenere_modos {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color: #4B79A8
+}
+
+.palavra-chave {
+    position: relative;
+    top: 70px;
+    left: 10px;
+    color: #4B79A8;
+}
+
+.vigenere_mensagem p {
+    position: relative;
+    top: 100px;
+    color: #4B79A8;
+
+}

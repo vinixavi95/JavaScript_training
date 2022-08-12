@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cifra de Viegenere</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">PROGRAMA PARA ENCRIPTAR MENSAGEM</h1>
+    </header>
+
+    <section class="vigenere">
+        <div class="viegenere_titulo">
+            <h2 class="title-2">Cifra de Vigenere</h2>
+        </div>
+
+        <div class="vigenere_modos">
+            <input type="radio" id="criptografar" value="">
+            <label for="criptografar">Encriptar</label><br>
+            <input type="radio" id="descriptografar" value="">
+            <label for="descriptografar">Decripitar</label><br>
+            <textarea class="input" id="vigenere_input" rows="10"></textarea>
+        </div>
+
+        <div class="palavra-chave">
+            Palavra-chave: <input type="text" id="palavra-chave">
+        </div>
+
+        <div class="vigenere_mensagem">
+            <p>Sua mensagem cripotografada</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
