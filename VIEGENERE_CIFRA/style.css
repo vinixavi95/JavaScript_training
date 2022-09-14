@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Hubballi&family=League+Gothic&family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito;
+}
+
+
+.title {
+    position: relative;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+    color: rgb(199, 52, 87);
+   
+}
+
+.container {
+    position: relative;
+    top: 90px;
+    background-color: whitesmoke;
+    height: 680px;
+}
+
+h2 {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    color: #3bee41;
+    height: 50px;
+}
+
+.vigenere_modos {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.encrip {
+    color: rgb(199, 52, 87)
+}
+
+.descrip {
+    color: #2d52e2
+}
+
+.enviar {
+    position: relative;
+    top: 50px;
+    left: 105px;
+    color: white;
+    font-size: 17px;
+    border: #49a3ec solid 1px;
+    border-radius: 5px;
+    background-color: #49a3ec;
+    width: 100px;
+    height: 50px;
+}
+
+
+.palavra-chave {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    color: #2d52e2;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+.mensagem_cifrada {
+    position: relative;
+    left: 710px;
+    bottom: 225px;
+    height: 190px;
+    width: 445px;
+    border: 1px rgb(29, 29, 29) solid;
+    background-color: rgb(29, 29, 29);
+    color: rgb(9, 229, 53);
+    font-family: Nunito;
+    
+}
+
