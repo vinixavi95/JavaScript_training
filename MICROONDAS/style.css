@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/* BARRA DE NAVEGAÇÃO */
+.nav-bar{
+border: solid 1px black;
+background-color:  #000A4D;
+height: 150px;
+}
+
+.nav-bar h1 {
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* BOTÃO dropdown MENU SUSPENSO - CADASTRAR PRATO */
+.dropbtn {
+background-color: #3498DB;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+  
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+background-color: #2980B9;
+}
+
+.submit {
+background-color: #2980B9;
+color: white;
+border: #2980B9;
+border-radius: 2px;
+}
+  
+/* The container <div> CADASTRAR PRATO - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+left: 30px;
+top: 140px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+.dropdown a {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+border-radius: 5px;
+background-color: #ddd;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+  
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* BOTÃO dropdown MENU SUSPENSO - AQUECER PRATO */
+.dropbtn1 {
+background-color: #991F4E;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn1:hover, .dropbtn1:focus {
+background-color: #991F4E;
+}
+
+.submit1 {
+background-color: #991F4E;
+color: white;
+border: #991F4E;
+border-radius: 2px;
+}
+
+/* The container <div> CADASTRAR PRATO - needed to position the dropdown content */
+.dropdown1 {
+position: relative;
+display: inline-block;
+left: 590px;
+top: 190px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+border: 1px #ddd;
+border-radius: 5px;
+background-color: #ddd;
+}
+
+.dropdown-content1 a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* PRATOS DISPONIVEIS */
+.pratos-disponiveis {
+position: relative;
+height: 400px;
+width: 350px;
+top: 90px;
+background-color: #000A4D;
+border-radius: 5px;
+}
+
+.pratos-disponiveis h2 {
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+color: white;
+}
+
+.pratos_list li {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+list-style: none;
+color: white;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* MICROONDAS */
+.titulo-microondas h2 {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+color: white;
+}
+
+.microondas {
+position: relative;
+left: 500px;    
+bottom: 400px;
+height: 400px;
+width: 800px;
+bottom: 330px;
+border-radius: 40px;
+background-color:  #000A4D;
+}
+
+.microondas h2 {
+text-align: center;
+}
+
+.microondas-saida {
+border-radius: 50px;
+width: 500px;
+position: relative;
+height: 50px;
+left: 150px;
+top: 70px;
+background-color: #ddd;
+text-align: center;
+}
+
+.text-node {
+position: relative;
+top: 13px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}

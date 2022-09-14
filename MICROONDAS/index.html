@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Microondas</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Simulador microondas</h1>
+    </div>
+
+    <div class="pratos-disponiveis">
+        <h2>Disponíveis para aquecer</h2>
+        <ul class="pratos_list" id="pratos">
+            <li value="pipoca">Pipoca</li>
+            <li value="macarrão">Macarrão</li>
+            <li value="carne">Carne</li>
+            <li value="feijão">Feijao</li>
+            <li value="arroz">Arroz</li>
+        </ul>
+
+        <div class="dropdown">
+
+                <button onclick= "myFunction()" class="dropbtn">Cadastrar prato</button>
+                <div id="myDropdown" class="dropdown-content">
+
+                    <label for="prato"></label>
+                    <a>Prato<input type="text" name="prato_input" id="prato" placeholder="Cadastrar novo prato"></a>
+
+                    <label for="tempo"></label>
+                    <a>Tempo<input type="text" id="tempo" placeholder="Cadastrar tempo"></a>
+
+                    <input class="submit" type="submit" id="cad_prato" value="Ok"></input>
+                </div>
+            
+        </div>
+
+    </div>
+
+
+    <div class="microondas">
+        <div class="titulo-microondas">
+            <h2>Microondas</h2>
+        </div>
+
+        <div class="microondas-saida">
+            <div class="text-node" id="microondas-saida">
+                
+            </div>
+        </div>
+
+        <div class="dropdown1">
+            <button onclick="myFunction1()" class="dropbtn1">Aquecer prato</button>
+            <div id="myDropdown1" class="dropdown-content1">
+                
+                <label for="pratos_option"></label>
+                <a>
+                    <select class="opcoes" id="pratos_option" name="select">
+                        <option value=""></option>
+                        <option id="pip" value="pipoca">Pipoca</option>
+                        <option id="mac" value="macarrão">Macarrão</option>
+                        <option id="car" value="carne">Carne</option>
+                        <option id="fei" value="feijão">Feijão</option>
+                        <option id="arr" value="arroz">Arroz</option>
+                    </select>
+                </a>
+                
+                <a><input type="text" id="aquecimento_tempo" placeholder="Tempo de aquecimento"></a>
+                
+                <input class="submit1" type="submit" id="aquecer" value="Ok"></input>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
