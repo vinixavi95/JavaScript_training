@@ -12,6 +12,6 @@ Usando o calculo algebrico da cifra:
 
 Ci = Pi + Ki (mod 26)
 
-Desloca-se a letra do alfabeto um número fixo de lugares, embaralhando a mensagem a partir de uma palava-chave de modo que, apenas quem possua a chave criptografica possa decriptar a mensagem. O programa também decripta uma mensagem cifrada com uma leve modificação na função algébrica:
+Desloca-se a letra do alfabeto um número fixo de lugares, embaralhando a mensagem a partir de uma palava-chave de modo que, apenas quem possua a chave criptográfica possa decriptar a mensagem. O programa também decripta uma mensagem cifrada com uma leve modificação na função algébrica:
 
 Pi = Ci - Ki + 26 (mod 26)
