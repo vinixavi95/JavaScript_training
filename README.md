@@ -1,6 +1,6 @@
 # JavaScript_training
 
-Trata-se de duas pequenas aplicações criadas para fins de aprendizado
+Trata-se de duas pequenas aplicações criadas para fins de aprendizado utilizando apenas HTML, CSS e JavaScript
 
 1 - Uma interface que simula o funcionamento de um forno microondas:
 
